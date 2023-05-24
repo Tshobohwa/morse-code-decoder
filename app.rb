@@ -59,7 +59,6 @@ def decode_char(morse)
     return character
 end
 
-decode_char("....")
 
 def decode_word(word)
     decoded_word = ""
@@ -70,7 +69,6 @@ def decode_word(word)
     return decoded_word
 end
 
-decode_word("-- -.--");
 
 def decode(setence)
     decoded_words =""
